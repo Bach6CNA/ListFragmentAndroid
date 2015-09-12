@@ -3,15 +3,6 @@
     android:layout_width="match_parent" android:layout_height="wrap_content"
     android:padding="5dp">
 
-    <!--ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/imgItemPoster"
-        android:layout_marginRight="10dp"
-        android:scaleType="centerInside"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true" /-->
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imgItemPoster"
         android:layout_width="64dp"

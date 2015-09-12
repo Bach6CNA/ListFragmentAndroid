@@ -12,11 +12,11 @@ import android.widget.TextView;
 /**
  * Created by richpolis on 10/09/15.
  */
-public class AdaptadorSagas extends ArrayAdapter<Saga> {
+public class AdapterSagas extends ArrayAdapter<Saga> {
 
     private Saga[] datos = null;
 
-    public AdaptadorSagas(Context context, int resource, Saga[] datos) {
+    public AdapterSagas(Context context, int resource, Saga[] datos) {
         super(context, resource, datos);
         this.datos = datos;
     }
